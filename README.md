@@ -1,6 +1,7 @@
 # Readme <a href='https://osf.io/zcvbs/'><img src='worcs_icon.png' align="right" height="139" /></a>
 
-<!-- Please add a brief introduction to explain what the project is about    -->
+This is a repository to test the WORCS package. I will remove this repository later on.
+No actual materials are shared here, I'm just following the steps in: https://nehamoopen.github.io/worcshop-book/
 
 ## Where do I start?
 

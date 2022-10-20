@@ -1,3 +1,17 @@
 worcs_version: 0.1.10
 creator: '4174259'
 entry_point: manuscript/manuscript.Rmd
+data:
+  data.csv:
+    save_expression: write.csv(x = data, file = filename, row.names = FALSE)
+    load_expression: read.csv(file = filename, stringsAsFactors = TRUE)
+    codebook: codebook_data.Rmd
+    labels: value_labels_data.yml
+  dataset.csv:
+    save_expression: write.csv(x = data, file = filename, row.names = FALSE)
+    load_expression: read.csv(file = filename, stringsAsFactors = TRUE)
+    codebook: codebook_dataset.Rmd
+    labels: value_labels_dataset.yml
+checksums:
+  data.csv: 6c2b05773cfa995f92e2346d554ccb1a
+  dataset.csv: 6c2b05773cfa995f92e2346d554ccb1a
